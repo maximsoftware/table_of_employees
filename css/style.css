@@ -1,0 +1,38 @@
+.p_filters{
+	width: 200px;
+	cursor: pointer;
+}
+.ul_filters{
+	display: none;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 99;
+	box-shadow: 3px 3px 8px rgba(0,0,0, 0.6);
+	cursor: pointer;
+}
+.arrow_up{
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+.block_search li {
+	display: inline;
+}
+.block_search li input{
+	width: 22%;
+}
+.block_toggle_foreman,.block_toggle_brigadier,.block_toggle_worker{
+	display: inline-block;
+}
+.span_main_image img{
+	max-width: 40px;
+	height: auto;
+}
+.upload_image{
+	width: 45px; !important
+	height: auto;
+}
+.upload_image img{
+	max-width: 40px;
+	height: auto;
+}
